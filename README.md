@@ -60,3 +60,6 @@ The advantage of this is that all knowledge is centralized for the game to play.
 We can easy switch the game from snake to something else. :-)
 
 ​	
+
+10% version of the dome
+![](..\MB - Projects\mini-Dome.jpg)

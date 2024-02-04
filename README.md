@@ -57,9 +57,9 @@ I15 --> L6
 
 The advantage of this is that all knowledge is centralized for the game to play.
 
-We can easy switch the game from snake to something else. :-)
+We can easy switch the game from "Snake" to something else. :-)
 
-​	
 
-10% version of the dome
+
+This is the 10% version of the dome
 ![small version](https://github.com/Makerspace-baasrode/LEDome/blob/main/mini-Dome.jpg?raw=true)

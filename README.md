@@ -11,29 +11,24 @@ We need 4 things to get this to work.
 
 
 ```mermaid
-graph TD;
+graph LR;
 
 C1(Badge version 2024)
 C2(Badge version 2022)
 C3(Mobile Phone)
 C4(Console application)
-H(Host)
+H(LEDome Host)
 N(Nats)
 I1(IRA 1)
-I2(IRA 2)
-I3(IRA 3)
-I4(IRA 4)
-I5(IRA 5)
-I6(IRA 6)
-I7(IRA 7)
-I8(IRA 8)
-I9(IRA 9)
-I10(IRA 10)
-I11(IRA 11)
-I12(IRA 12)
-I13(IRA 13)
-I14(IRA 14)
+I8(Other IRA's 2 to 14)
 I15(IRA 15)
+L1(Ledstrip 1)
+L2(Ledstrip 2)
+L3(Ledstrip 3)
+L4(Ledstrip 4)
+L5(Ledstrip 5)
+
+L6(Connects to 5 unique <br> ledstrips like above)
 
 C1 --> H
 C2 --> H
@@ -42,20 +37,18 @@ C4 --> H
 H --> N
 N --> H
 N --> I1
-N --> I2
-N --> I3
-N --> I4
-N --> I5
-N --> I6
-N --> I7
 N --> I8
-N --> I9
-N --> I10
-N --> I11
-N --> I12
-N --> I13
-N --> I14
 N --> I15
+
+I1 --> L1
+I1 --> L2
+I1 --> L3
+I1 --> L4
+I1 --> L5
+
+I8 --> L6
+I15 --> L6
+
 
 
 ```

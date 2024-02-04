@@ -7,6 +7,7 @@ We need 4 things to get this to work.
 - LedDome Host that can receive all client input. (process the input to output with game logic)
 - The Nats server to send all the output distribution mechanism.
 - 15 pieces IRA boards (each a part on the dome) that will send the color output to the led. (5 led strips on each Ira board.)
+  The IRA can do more things but for now we keep it like this.
 
 
 
@@ -59,7 +60,23 @@ The advantage of this is that all knowledge is centralized for the game to play.
 
 We can easy switch the game from "Snake" to something else. :-)
 
-
-
 This is the 10% version of the dome
 ![small version](https://github.com/Makerspace-baasrode/LEDome/blob/main/mini-Dome.jpg?raw=true)
+
+
+
+**Important info!**
+The "*Small*" dome version vs "*Real*" version will have a difference in length strips. This will not change the logic, it's only display purpose.
+
+
+
+<u>Spelregels & knowledge base for snake</u> 
+reference: [](https://wormate.io/)
+
+- We starten met een basislengte van 5 leds. (elk patroon moet unique zijn!) Eventueel het patroon op de badge tonen. 
+  Het kleur patroon kan niet de kleur zijn van de breadcrumbs.
+- We bewegen enklel voorwaarts en kunnen enkel links of rechts.
+- Komen 2 snakes elkaar tegen kop aan kop -> spelen we blad steen schaar. -> de verliezer start opnieuw op en de winnaar krijgt de lengte van zijn snake.
+- De snakes kunnen langer worden door de breadcrumbs te eten die enkel zichtbaar zijn op de dome.
+- Komen we onderaan aan de voet van de dome dan keren we van richting als we beneden zijn)
+- We hebben een vaste snelheid -> maar we kunnen die optrekken.

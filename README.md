@@ -62,4 +62,4 @@ We can easy switch the game from snake to something else. :-)
 ​	
 
 10% version of the dome
-![](..\MB - Projects\mini-Dome.jpg)
+![small version](https://github.com/Makerspace-baasrode/LEDome/blob/main/mini-Dome.jpg?raw=true)

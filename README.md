@@ -68,6 +68,8 @@ This is the 10% version of the dome
 **Important info!**
 The "*Small*" dome version vs "*Real*" version will have a difference in length strips. This will not change the logic, it's only display purpose.
 
+Er zijn 3 kleuren = 3 verschillende lengtes.
+
 
 
 <u>Spelregels & knowledge base for snake</u> 
@@ -80,3 +82,38 @@ reference: [](https://wormate.io/)
 - De snakes kunnen langer worden door de breadcrumbs te eten die enkel zichtbaar zijn op de dome.
 - Komen we onderaan aan de voet van de dome dan keren we van richting als we beneden zijn)
 - We hebben een vaste snelheid -> maar we kunnen die optrekken.
+- Je kan je eigen bijten = game over.
+- We beginnen ergens onderaan (gele zone). (we blinken of knipper modes  = init mode en je kan jezelf zoeken op de dome.)
+  Bij eerste button press -> bevestig je en je bent vertrokken.
+- Bij elk kruispunt stoppen we en zeggen we welke richting we uitgaan.
+- Bij niet reageren tijdens bladsteen schaar -> wint de 1e degene die reactie geeft. (Geen reactie van beide binnen 5 seconden = Game over)
+- Bekijken waar we onze beperking gaan opleggen. (De slanger worden steeds groter = voordeel voor de grotere, en is geen fun voor de andere)
+- Geen reactie binnen de 20 seconden aan een kruispunt = game over.
+- Maximale lengte instellen van een snake? (en de score ergens weergeven. (display badge?))
+
+
+
+We gaan een versie nummer moeten bijhouden. (indien aanpassingen aan de badge. -> dat we weten welke versie welke data gaat insturen)
+Op die manier kunnen we firmware update afdwingen. (indien nodig)
+
+
+
+We moeten een score kunnen opvragen. -> dit weer geven op de badge. -> via NATS
+Als we die logica uitschrijven ...
+
+
+
+Als spelers willen meespelen -> unique naam? (badge?)
+
+Score in welke mate bijhouden?
+
+Patroon bij houden?
+
+Patroon aanpassen?
+
+
+
+
+
+
+
